@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import { ComponentApp } from './homework/4';
+// import RequestComponent from './homework/2';
+// import { Observer } from './homework/1';
+// import { FormComponent } from './homework/3';
+
 
 function App() {
   return (
@@ -18,7 +23,11 @@ function App() {
         >
           Learn React
         </a>
+        {/* <ComponentApp/> */}
       </header>
+      {/* <RequestComponent/> */}
+      {/* <Observer children={<FormComponent/>} onContentEndVisible={()=>{console.log('sss')}}/> */}
+      {/* <FormComponent></FormComponent> */}
     </div>
   );
 }
